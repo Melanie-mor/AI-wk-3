@@ -1,5 +1,3 @@
-# AI-wk-3
-Week3 AI Assignment
 ✅ Q1: TensorFlow vs. PyTorch
 TensorFlow: Graph-based execution; great for production/deployment (e.g., with TensorFlow Lite, TensorFlow.js).
 PyTorch: Dynamic computation graph (eager execution); more intuitive for research and experimentation.
