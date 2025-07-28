@@ -1,0 +1,10 @@
+📝 Final Report Summary: AI-Powered Review Analysis for SDG 2 – Zero Hunger
+Introduction: This project explores how artificial intelligence can support SDG 2: Zero Hunger by analyzing textual data such as consumer reviews on food-related products. By applying Natural Language Processing (NLP) techniques, the aim is to uncover trends in sentiment, brand perception, and potential barriers to product adoption, especially in contexts tied to nutrition and access.
+
+Methodology: Using the spaCy library, the project performs Named Entity Recognition (NER) and rule-based sentiment classification on Amazon-style product reviews. Key entities like product names and organizations are extracted to understand consumer focus, while sentiment keywords are mapped to classify emotional tone. Sample texts and test data helped validate the rule-based sentiment system.
+
+Results: The model successfully identified entities such as “Samsung Galaxy” and “iPhone,” and categorized sentiments ranging from positive enthusiasm to negative dissatisfaction. Despite being rule-based, the approach delivered meaningful insights into tone and product appeal.
+
+Limitations: While rule-based sentiment detection offers simplicity, it struggles with nuanced language, sarcasm, and complex sentence structures (e.g., “Terrible battery life, but excellent screen”). Additionally, pretrained pipelines like spaCy may reflect linguistic or cultural bias based on training data origin. Future enhancements could involve supervised ML models, negation handling, and language-specific tuning.
+
+Conclusion: This project demonstrates that AI can help extract meaningful patterns from unstructured text, shedding light on consumer opinions and brand efficacy. More importantly, it sparks conversation about fairness, bias, and how NLP tools can contribute to food system transparency. In the context of SDG 2, such insights could inform smarter product development, better service delivery, and ultimately, more equitable access to nutritious resources.
