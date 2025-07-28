@@ -1,23 +1,30 @@
-✅ Q1: TensorFlow vs. PyTorch
-TensorFlow: Graph-based execution; great for production/deployment (e.g., with TensorFlow Lite, TensorFlow.js).
-PyTorch: Dynamic computation graph (eager execution); more intuitive for research and experimentation.
-Use Case Example:
-Choose PyTorch when you need flexibility and quick debugging.
-Choose TensorFlow for scalable models with deployment needs.
+# 🌾 AI Project for SDG 2: Zero Hunger
 
-✅ Q2: Jupyter Notebook Use Cases
-Interactive Prototyping: Great for step-by-step testing and visualizations.
-Documentation & Teaching: Combines code, markdown, and plots for explainable workflows.
+## 📘 Overview
+This project demonstrates how classical machine learning, deep learning, and NLP tools can support SDG 2 by predicting crop yields, analyzing handwritten digits for accessibility, and extracting insights from product reviews related to food and nutrition.
 
-✅ Q3: spaCy for NLP
-Enhances NLP by:
-Pretrained pipelines for NER, POS, Dependency Parsing.
-Efficient tokenization vs. basic .split() or regex.
-Fast & production-ready, compared to slower, less accurate string-based methods.
+## 📂 Project Sections
+1. **Iris Dataset – Scikit-learn**
+   - Decision Tree classifier for crop prediction
+   - Accuracy, Precision, and Recall scores
 
-🔍 Comparative Analysis: Scikit-learn vs TensorFlow
-Feature	Scikit-learn	TensorFlow
-Target Applications	Classical ML (SVM, trees)	Deep learning (CNNs, RNNs, etc.)
-Ease of Use	Beginner-friendly	Steeper learning curve
-Community Support	Strong docs, stable APIs	Large ecosystem, active updates
+2. **MNIST Dataset – TensorFlow**
+   - CNN model to classify handwritten digits
+   - Achieved >95% test accuracy
+   - Sample predictions visualized
 
+3. **Amazon Reviews – spaCy**
+   - Named Entity Recognition (NER)
+   - Rule-based sentiment analysis on food product reviews
+
+## 🧠 Ethical Reflection
+- Explored bias in sentiment classification and model interpretation
+- Discussed fairness risks in rule-based vs. pretrained pipelines
+
+## 🔧 Tech Stack
+- Python
+- Jupyter Notebook
+- Scikit-learn
+- TensorFlow
+- spaCy
+- matplotlib, seaborn
